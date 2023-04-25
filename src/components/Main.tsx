@@ -3,7 +3,7 @@ import strongB from "../assets/strongB.svg"
 import strongC from "../assets/strongC.svg"
 import strongD from "../assets/strongD.svg"
 
-import icon from "../assets/icon.svg"
+import logoOpac from "../assets/logo-opac.svg"
 
 import rightArrow from "../assets/right-arrow.svg"
 
@@ -106,9 +106,18 @@ export default function Main() {
                     O que estão falando do nosso método de treinamento
                 </h1>
 
-                <div className="flex flex-col w-72 h-72 bg-slate border-b-2 border-red rounded bg-no-repeat bg-right-bottom" style={{backgroundImage: `url(${icon})`
-            }}>
+                <div className="flex space-x-8">
+                    <div className="flex flex-col w-72 h-72 bg-slate border-b-2 border-red rounded bg-no-repeat bg-right-bottom" 
+                    style={{backgroundImage: `url(${logoOpac})`}}>
+                    </div>
+                    
+                    <div className="flex flex-col w-72 h-72 bg-slate border-b-2 border-red rounded bg-no-repeat bg-right-bottom" 
+                    style={{backgroundImage: `url(${logoOpac})`}}>
+                    </div>
 
+                    <div className="flex flex-col w-72 h-72 bg-slate border-b-2 border-red rounded bg-no-repeat bg-right-bottom" 
+                    style={{backgroundImage: `url(${logoOpac})`}}>
+                    </div>
                 </div>
             </div>
         </section>
